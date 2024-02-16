@@ -1,0 +1,60 @@
+#skills{
+    position: relative;
+    border-radius: 15px;
+    margin-top: 75px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.skillsContent {
+    height: 75vh;
+    width: 100vw;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    
+}
+
+.skillHeader {
+    color: blanchedalmond;
+    font-size: 4rem;
+    font-weight: 700;
+    z-index: 1;
+    
+}
+.bg {
+    size: ;
+}
+    
+.skillsContent{
+    
+    color: blanchedalmond;
+    padding: 5px;
+    width: 75vw; /* Adjust the width to your preference */
+    
+    font-size: medium;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width: 840px) {
+    #intro{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .skillsContent{
+        align-items: center;
+        position: center;
+        
+    }
+    .skillHeader{
+        align-items: center;
+        position: center;
+    }
+   
+    
+}
